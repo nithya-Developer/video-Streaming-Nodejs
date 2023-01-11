@@ -20,7 +20,7 @@ A node express repo to demonstrate video stream
     - Load series data
 
     ```
-    netflix_db> db.shell.insertMany([
+    netflix_db> db.shows.insertMany([
         {
             title: '83',
             title_img: 'https://occ-0-2087-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABQPIgYvylQ4BYAWr1-T2yUiL-bOe7l5TaIVi5VXk48FXuLbVFspTbzo0mtjS-hBsImUScmR8NtdXCVyjtW4sule_bqThGvhnMFwq.webp?r=1c9',
@@ -84,4 +84,4 @@ A node express repo to demonstrate video stream
     npm start
     ```
 
-4. Open `localhost:8888` on your browser
+4. Open `localhost:8000` on your browser

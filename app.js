@@ -11,9 +11,9 @@ app.use('/', showRouter);
 
 
 function startServer() {
-    app.listen(8888, "127.0.0.1", () => {
-        console.info(`Server running on 127.0.0.1:8888`);
+    app.listen(8000, "127.0.0.1", () => {
+        console.info(`Server running on 127.0.0.1:8000`);
     });
 }
 
-mongoose.connect("mongodb://127.0.0.1:27017/netflix_db", {useNewUrlParser: true, useUnifiedTopology: true}).then(startServer);
+mongoose.connect("mongodb://127.0.0.1:27017/video_streaming_db", {useNewUrlParser: true, useUnifiedTopology: true}).then(startServer);
