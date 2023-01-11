@@ -1,23 +1,23 @@
-# netflix_clone
+# video_streaming_Nodejs
 A node express repo to demonstrate video stream
 
 1. Setup:
     
     ```
-    cd netflix_clone && npm install
+    cd video-streaming-Nodejs && npm install
     ```
 
 2. Load data:
     1. Open your mongo shell
     2. Inside mongo shell
 
-    - Create db with name `netflix_db`
+    - Create db with name `video_streaming_db`
 
     ```
-    > use netflix_db
+    > use video_streaming_db
     ```
 
-    - Load series data
+    <!-- - Load series data
 
     ```
     netflix_db> db.shows.insertMany([
@@ -72,7 +72,7 @@ A node express repo to demonstrate video stream
             synopsis: 'Seinfeld'
         }]);
 
-    ```
+    ``` -->
 
 
 
